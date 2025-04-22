@@ -1,0 +1,7 @@
+Tilt Error Statistics Run 10
+-----------------------
+Mean (μ_10): 2.069136
+Standard Deviation (σ_10): 1.479593
+Maximum (M_10): 6.766222
+
+Total Step Length (n_10): 644

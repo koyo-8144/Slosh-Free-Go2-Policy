@@ -1,0 +1,7 @@
+Tilt Error Statistics Run 4
+-----------------------
+Mean (μ_4): 2.033777
+Standard Deviation (σ_4): 1.295396
+Maximum (M_4): 6.256837
+
+Total Step Length (n_4): 605

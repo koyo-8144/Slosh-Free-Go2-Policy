@@ -1,0 +1,7 @@
+Angular Z Velocity Error Statistics Run 3
+-----------------------
+Mean (μ_3): 0.055763
+Standard Deviation (σ_3): 0.050142
+Maximum (M_3): 0.434820
+
+Total Step Length (n_3): 583

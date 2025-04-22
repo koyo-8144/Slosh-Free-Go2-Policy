@@ -1,0 +1,7 @@
+Linear X Velocity Error Statistics Run 4
+-----------------------
+Mean (μ_4): 0.118361
+Standard Deviation (σ_4): 0.206190
+Maximum (M_4): 1.077708
+
+Total Step Length (n_4): 605
