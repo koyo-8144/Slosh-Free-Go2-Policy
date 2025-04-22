@@ -1,0 +1,7 @@
+Linear X Velocity Error Statistics Run 3
+-----------------------
+Mean (μ_3): 0.137232
+Standard Deviation (σ_3): 0.190133
+Maximum (M_3): 1.213468
+
+Total Step Length (n_3): 650

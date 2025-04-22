@@ -1,0 +1,7 @@
+Tilt Error Statistics Run 7
+-----------------------
+Mean (μ_7): 2.320910
+Standard Deviation (σ_7): 4.197359
+Maximum (M_7): 39.212776
+
+Total Step Length (n_7): 640

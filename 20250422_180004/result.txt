@@ -1,0 +1,7 @@
+20250422_180004 SF_V1
+
+Tilt
+Across 10 runs (total steps = 6454):
+  Pooled Mean        μ = 2.113425
+  Pooled StdDev   σ = 2.329133
+  Overall Maximum   M  = 39.212776

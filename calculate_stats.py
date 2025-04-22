@@ -3,33 +3,33 @@ import math
 from pathlib import Path
 
 SF_V1 = 0
-SF_V2 = 0
+SF_V2 = 1
 SF_V3 = 0
-NSF = 1
+NSF = 0
 
-TILT_STATS = 0
+TILT_STATS = 1
 LINVEL_X_STATS = 0
 LINVEL_Y_STATS = 0
-ANGVEL_Z_STATS = 1
+ANGVEL_Z_STATS = 0
 
 if SF_V1:
     if TILT_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250417_210914_Slosh_Free_V1" / "tilt_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250422_180004" / "tilt_stats"
     elif LINVEL_X_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250417_210914_Slosh_Free_V1" / "linvel_x_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250422_180004" / "linvel_x_stats"
     elif LINVEL_Y_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250417_210914_Slosh_Free_V1" / "linvel_y_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250422_180004" / "linvel_y_stats"
     elif ANGVEL_Z_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250417_210914_Slosh_Free_V1" / "angvel_z_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250422_180004" / "angvel_z_stats"
 elif SF_V2:
     if TILT_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_205405_Slosh_Free_V2" / "tilt_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_044137" / "tilt_stats"
     elif LINVEL_X_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_205405_Slosh_Free_V2" / "linvel_x_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_044137" / "linvel_x_stats"
     elif LINVEL_Y_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_205405_Slosh_Free_V2" / "linvel_y_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_044137" / "linvel_y_stats"
     elif ANGVEL_Z_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_205405_Slosh_Free_V2" / "angvel_z_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_044137" / "angvel_z_stats"
 elif SF_V3:
     if TILT_STATS:
         DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_122056_Slosh_Free_V3" / "tilt_stats"
@@ -50,7 +50,7 @@ elif NSF:
         DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_175410_Non_Slosh_Free" / "angvel_z_stats"
 
 # 1) Point this to your folder containing the run*_tilt_stats.txt files:
-# DATA_DIR = Path.home() / "Genesis" / "results" / "20250417_210914_Slosh_Free_V1" / "tilt_stats"
+# DATA_DIR = Path.home() / "Genesis" / "results" / "20250422_180004" / "tilt_stats"
 # DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_205405_Slosh_Free_V2" / "tilt_stats"
 # DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_175410_Non_Slosh_Free" / "tilt_stats"
 

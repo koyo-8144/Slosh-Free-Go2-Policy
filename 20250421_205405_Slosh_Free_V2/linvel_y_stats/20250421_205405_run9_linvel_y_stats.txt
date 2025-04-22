@@ -1,7 +1,0 @@
-Linear Y Velocity Error Statistics Run 9
------------------------
-Mean (μ_9): 0.022486
-Standard Deviation (σ_9): 0.017920
-Maximum (M_9): 0.107942
-
-Total Step Length (n_9): 601
