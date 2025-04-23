@@ -1,0 +1,7 @@
+Tilt Error Statistics Run 8
+-----------------------
+Mean (μ_8): 1.738133
+Standard Deviation (σ_8): 1.236173
+Maximum (M_8): 6.409505
+
+Total Step Length (n_8): 644

@@ -1,0 +1,7 @@
+Angular Z Velocity Error Statistics Run 8
+-----------------------
+Mean (μ_8): 0.054579
+Standard Deviation (σ_8): 0.040935
+Maximum (M_8): 0.264466
+
+Total Step Length (n_8): 644

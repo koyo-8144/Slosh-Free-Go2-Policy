@@ -4,9 +4,9 @@ from pathlib import Path
 
 SF_V1 = 0
 SF_V2 = 0
-SF_V3 = 0
+SF_V3 = 1
 NSF = 0
-NACC = 1
+NACC = 0
 
 TILT_STATS = 1
 LINVEL_X_STATS = 0
@@ -33,13 +33,13 @@ elif SF_V2:
         DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_044137" / "angvel_z_stats"
 elif SF_V3:
     if TILT_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_122056_Slosh_Free_V3" / "tilt_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_130100" / "tilt_stats"
     elif LINVEL_X_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_122056_Slosh_Free_V3" / "linvel_x_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_130100" / "linvel_x_stats"
     elif LINVEL_Y_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_122056_Slosh_Free_V3" / "linvel_y_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_130100" / "linvel_y_stats"
     elif ANGVEL_Z_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_122056_Slosh_Free_V3" / "angvel_z_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_130100" / "angvel_z_stats"
 elif NSF:
     if TILT_STATS:
         DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_072540" / "tilt_stats"
