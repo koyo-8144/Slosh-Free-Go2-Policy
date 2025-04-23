@@ -1,0 +1,7 @@
+20250423_072540  NSF
+
+Tilt
+Across 10 runs (total steps = 6454):
+  Pooled Mean        μ = 3.314567
+  Pooled StdDev   σ = 2.647482
+  Overall Maximum   M  = 14.467972

@@ -1,0 +1,43 @@
+Non-slosh-free-rapid
+"desired_kl": 0.005,
+
+### Rapid Locomotion ###
+"tracking_lin_vel": 1.0,
+"tracking_ang_vel": 0.5,
+"lin_vel_z": -2.0,
+"ang_vel_xy": -0.05,
+"base_height": -30.0,
+"orientation": -0.1,
+"collision": -1.0,
+"dof_pos_limits": -10.0,
+"torques": -1e-5,
+"dof_acc": -2.5e-7,
+"action_rate": -0.01,
+"feet_air_time": 1.0
+
+
+
+"num_commands": 3,
+"num_obs": 45,
+"num_privileged_obs": 48, # num_obs + base_lin_vel
+"only_positive_rewards": True,
+"alpha": 0.9
+
+Learning rate update from KL:
+rate -> 1.5
+minumum -> 1.e-5
+
+acc profile resample:
+"acc_sigma": 0.3,
+"sign_flip_rate": 0.0, 
+
+ppo params:
+"clip_param": 0.2
+"desired_kl": 0.005,
+
+"resampling_time_s": 4.0, # original, resample every 200 steps
+
+Result:
+In evaluation,.
+
+Plan:

@@ -1,0 +1,7 @@
+Linear X Velocity Error Statistics Run 9
+-----------------------
+Mean (μ_9): 0.114449
+Standard Deviation (σ_9): 0.169934
+Maximum (M_9): 1.213121
+
+Total Step Length (n_9): 695

@@ -3,9 +3,9 @@ import math
 from pathlib import Path
 
 SF_V1 = 0
-SF_V2 = 1
+SF_V2 = 0
 SF_V3 = 0
-NSF = 0
+NSF = 1
 
 TILT_STATS = 1
 LINVEL_X_STATS = 0
@@ -41,18 +41,18 @@ elif SF_V3:
         DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_122056_Slosh_Free_V3" / "angvel_z_stats"
 elif NSF:
     if TILT_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_175410_Non_Slosh_Free" / "tilt_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_072540" / "tilt_stats"
     elif LINVEL_X_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_175410_Non_Slosh_Free" / "linvel_x_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_072540" / "linvel_x_stats"
     elif LINVEL_Y_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_175410_Non_Slosh_Free" / "linvel_y_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_072540" / "linvel_y_stats"
     elif ANGVEL_Z_STATS:
-        DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_175410_Non_Slosh_Free" / "angvel_z_stats"
+        DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_072540" / "angvel_z_stats"
 
 # 1) Point this to your folder containing the run*_tilt_stats.txt files:
 # DATA_DIR = Path.home() / "Genesis" / "results" / "20250422_180004" / "tilt_stats"
 # DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_205405_Slosh_Free_V2" / "tilt_stats"
-# DATA_DIR = Path.home() / "Genesis" / "results" / "20250421_175410_Non_Slosh_Free" / "tilt_stats"
+# DATA_DIR = Path.home() / "Genesis" / "results" / "20250423_072540" / "tilt_stats"
 
 # 2) Prepare containers
 mus     = []   # μ_i
