@@ -1,0 +1,7 @@
+Angular Z Velocity Error Statistics Run 5
+-----------------------
+Mean (μ_5): 0.072646
+Standard Deviation (σ_5): 0.058288
+Maximum (M_5): 0.385154
+
+Total Step Length (n_5): 689

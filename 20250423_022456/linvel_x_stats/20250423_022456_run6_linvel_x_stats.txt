@@ -1,0 +1,7 @@
+Linear X Velocity Error Statistics Run 6
+-----------------------
+Mean (μ_6): 0.121036
+Standard Deviation (σ_6): 0.198382
+Maximum (M_6): 1.187301
+
+Total Step Length (n_6): 614
