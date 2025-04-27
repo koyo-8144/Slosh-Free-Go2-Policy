@@ -1,7 +1,0 @@
-20250423_022456 No Acc Sample
-
-Tilt
-Across 10 runs (total steps = 6454):
-  Pooled Mean        μ = 2.733912
-  Pooled StdDev   σ = 2.293798
-  Overall Maximum   M  = 12.618871

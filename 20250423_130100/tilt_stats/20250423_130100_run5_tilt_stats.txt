@@ -1,7 +1,0 @@
-Tilt Error Statistics Run 5
------------------------
-Mean (μ_5): 2.187793
-Standard Deviation (σ_5): 2.318346
-Maximum (M_5): 14.550590
-
-Total Step Length (n_5): 689

@@ -1,7 +1,0 @@
-Tilt Error Statistics Run 6
------------------------
-Mean (μ_6): 2.353467
-Standard Deviation (σ_6): 3.461378
-Maximum (M_6): 34.888027
-
-Total Step Length (n_6): 614

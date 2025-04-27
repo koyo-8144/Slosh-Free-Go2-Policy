@@ -1,7 +1,0 @@
-Linear Y Velocity Error Statistics Run 4
------------------------
-Mean (μ_4): 0.038836
-Standard Deviation (σ_4): 0.029562
-Maximum (M_4): 0.135461
-
-Total Step Length (n_4): 617

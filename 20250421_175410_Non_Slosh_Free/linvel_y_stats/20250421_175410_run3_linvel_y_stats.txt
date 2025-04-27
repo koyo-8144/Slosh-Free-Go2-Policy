@@ -1,7 +1,0 @@
-Linear Y Velocity Error Statistics Run 3
------------------------
-Mean (μ_3): 0.025767
-Standard Deviation (σ_3): 0.019888
-Maximum (M_3): 0.099436
-
-Total Step Length (n_3): 583

@@ -1,7 +1,0 @@
-Tilt Error Statistics Run 9
------------------------
-Mean (μ_9): 2.144758
-Standard Deviation (σ_9): 1.720965
-Maximum (M_9): 6.547285
-
-Total Step Length (n_9): 601

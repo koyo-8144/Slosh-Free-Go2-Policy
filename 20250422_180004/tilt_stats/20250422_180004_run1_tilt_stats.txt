@@ -1,7 +1,0 @@
-Tilt Error Statistics Run 1
------------------------
-Mean (μ_1): 2.032194
-Standard Deviation (σ_1): 1.491264
-Maximum (M_1): 7.997685
-
-Total Step Length (n_1): 655

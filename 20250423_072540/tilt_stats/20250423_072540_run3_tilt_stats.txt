@@ -1,7 +1,0 @@
-Tilt Error Statistics Run 3
------------------------
-Mean (μ_3): 2.561141
-Standard Deviation (σ_3): 1.956675
-Maximum (M_3): 8.484664
-
-Total Step Length (n_3): 650

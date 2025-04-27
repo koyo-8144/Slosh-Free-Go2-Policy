@@ -1,7 +1,0 @@
-Linear Y Velocity Error Statistics Run 6
------------------------
-Mean (μ_6): 0.027087
-Standard Deviation (σ_6): 0.023296
-Maximum (M_6): 0.182050
-
-Total Step Length (n_6): 614

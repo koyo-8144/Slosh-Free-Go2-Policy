@@ -1,7 +1,0 @@
-Linear X Velocity Error Statistics Run 8
------------------------
-Mean (μ_8): 0.103620
-Standard Deviation (σ_8): 0.155272
-Maximum (M_8): 1.076119
-
-Total Step Length (n_8): 644
