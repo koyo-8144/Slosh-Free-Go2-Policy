@@ -1,0 +1,19 @@
+Randomly Sampled Command V Length Run 10
+-----------------------
+Start Stop Length: 50
+Forward 1 Length: 62
+Forward 1 Velocity: 0.8
+Forward 2 Length: 91
+Forward 2 Velocity: 1.2
+Forward 3 Length: 87
+Forward 3 Velocity: 0.4
+Middle Stop Length: 80
+Backward 1 Length: 82
+Backward 1 Velocity: -0.8
+Backward 2 Length: 62
+Backward 2 Velocity: -1.2
+Backward 3 Length: 90
+Backward 3 Velocity: -0.4
+Finish Stop Length: 50
+
+Total Step Length: 654
