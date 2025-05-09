@@ -1,0 +1,75 @@
+"slosh_free_world_v3": -0.1,
+desired_roll = torch.atan2(ay_smooth, -az_smooth)
+ACC_PROFILE_RESAMPLE_V2 = 1
+V_ACC = 1
+dt = self.dt
+"acc_x_mean": 25.0,
+"acc_x_sigma": 8.3,
+"acc_y_mean": 25.0,
+"acc_y_sigma": 8.3,
+"alpha": 0.9,
+DR_v2
+HIP_REDUCTION = 0, 'hip_reduction_scale': ,
+
+
+"tracking_lin_vel": 2.0,
+"tracking_ang_vel": 1.0,
+"lin_vel_z": -2.0,
+"ang_vel_xy": -0.05,
+"base_height": -30.0,
+"orientation": -0.1,
+"collision": -1.0,
+"dof_pos_limits": -10.0,
+"torques": -1e-5,
+"dof_acc": -2.5e-7,
+"action_rate": -0.01,
+"slosh_free_world_v3": -0.1,
+
+"num_commands": 3,
+"num_obs": 45,
+"num_privileged_obs": 48, # num_obs + base_lin_vel
+"only_positive_rewards": True,
+"alpha": 0.9
+
+Learning rate update from KL:
+rate -> 1.5
+minumum -> 1.e-5
+                                                                                        
+ACC_PROFILE_RESAMPLE_V2 = 1
+
+ppo params:
+"clip_param": 0.2
+"desired_kl": 0.005,
+
+
+# random push
+push_interval_s': 10.0,
+'max_push_vel_xy': 0.5,
+
+push_robot = EventTerm(
+    func=mdp.push_by_setting_velocity,
+    mode="interval",
+    interval_range_s=(10.0, 15.0),
+    params={"velocity_range": {"x": (-0.5, 0.5), "y": (-0.5, 0.5)}},
+)
+
+desired_pitch = torch.atan2(ax_smooth, -az_smooth)
+desired_roll = torch.atan2(ay_smooth, -az_smooth)
+
+Result:
+
+
+Plan:
+ACC_PROFILE_RESAMPLE = 0
+
+
+ACC_PROFILE_RESAMPLE = 1
+POS_ACC = 0
+NEG_ACC = 0
+V_ACC = 0
+
+
+
+
+ACC_PROFILE_RESAMPLE = 1
+
